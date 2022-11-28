@@ -8,6 +8,10 @@ use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
+    function register()
+    {
+    }
+
     function boot() {
         Builder::macro('cacheThis', function ($key, $px = null)
         {

@@ -7,6 +7,10 @@ use Laravel\Lumen\Application as LumenApplication;
 
 class ConfigServiceProvider extends LaravelServiceProvider
 {
+    function register()
+    {
+    }
+
     /**
      * Boot the service provider.
      */
