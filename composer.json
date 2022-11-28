@@ -1,0 +1,34 @@
+{
+    "name": "lhaa0/cache-db",
+    "description": "laravel library support",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lhaa0",
+            "email": "riski.rama54@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-collection-macros": "^7.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Lhaa0\\CacheDB\\": "app"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lhaa0\\CacheDB\\AppServiceProvider",
+                "Lhaa0\\CacheDB\\ConfigServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
