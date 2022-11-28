@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "spatie/laravel-collection-macros": "^7.4"
+
     },
     "require-dev": {},
     "autoload": {
